@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header is the text at the top within the nav bar */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +51,7 @@ p {
     font-size: 16px;
 }
 
+/* hero is the large image you see when the page loads */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,22 +88,7 @@ p {
     background-color: #2589bd;
 }
 
-.tallbox {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.tallbox h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.tallbox img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* widebox are the 3 stacking wide boxes that contain seo, online reputation management and social media marketing */
 .widebox {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,6 +107,24 @@ p {
     font-size: 36px;
 }
 
+/* tallbox is the vertical rectangle on the right side of the page that contains lead generation, brand awareness, and cost management */
+.tallbox {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.tallbox h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tallbox img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* the footer at the very bottom fo the page */
 .footer {
     padding: 30px;
     clear: both;
